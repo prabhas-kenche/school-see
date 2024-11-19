@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:schoolsee/navbar.dart'; // Import the navbar
 
 void main() {
   runApp(const MyApp());
@@ -63,10 +62,6 @@ class DashboardScreen extends StatelessWidget {
                   ),
                 ],
               ),
-              const SizedBox(height: 20),
-              // Add Navbar widget here
-              const Navbar(), // Insert the navbar below the user info
-
               const SizedBox(height: 20),
               // Search Bar
               TextField(
